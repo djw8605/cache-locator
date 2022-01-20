@@ -1,0 +1,15 @@
+name = "stash-location"
+#type = "javascript"
+type = "webpack"
+
+#workers_dev = true
+route = "cache-location.osgstorage.org/*"
+zone_id = "db06af06d8f9d6f11544b522695c0e8e"
+compatibility_date = "2022-01-06"
+kv_namespaces = [
+	 { binding = "AirportCodes", id = "438af90f434f41f9a7b11f965c0c1036" }
+]
+#kv_namespaces = [
+#	 { binding = "AirportCodes", id = "9e3a0a8eef4744d0939e35e1baad211d" }
+#]
+
